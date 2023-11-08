@@ -1,0 +1,155 @@
+body{
+    background-image: url(/nurse-img/pexels-anna-shvets-3786154.jpg);
+    background-size: cover; /* or contain, depending on your preference */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(4px);
+}
+
+.index-header{
+   margin: 20px;
+   
+}
+
+.main-headre-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%; padding-right: 20px;
+}
+nav>ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+li a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: .7s ease all;
+    text-decoration: none;
+    font-size: 14px;
+}
+li a:hover{
+    transform: scale(1.1);
+    color: rgb(255, 241, 241);
+    padding: 10px;
+    background-color: rgb(145, 52, 52);
+    border-radius: 10px;
+    box-sizing: 0 5px 15px rgb(22, 41, 148);
+}
+
+
+.logo{
+    font-family: 'Alumni Sans Inline One', sans-serif;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+   
+
+.search-and-social{
+    width: fit-content;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.fa-twitter{
+    font-size: 30px !important;
+    color: #1877F2 !important;
+    transition: all .8s;
+}
+.fa-twitter:hover{
+    cursor: pointer;
+    transform: scale(1.4);
+
+}
+.fa-facebook{
+    color: #3B5998;
+    font-size: 28px;
+    transition: all .8s;
+}
+.fa-facebook:hover{
+    transform: scale(1.4);
+    cursor: pointer;
+    color: #0040ca;
+}
+.fa-instagram{
+    font-size: 28px;
+    color: #E4405F;
+    transition: all .8s;
+
+}
+.fa-instagram:hover{
+    transform: scale(1.4);
+    cursor: pointer;
+    color: #D62C2A;
+}
+
+.search-and-social input{
+    width: 160px;
+    border-radius: 12px;
+    border: none;
+    padding: 6px;
+}
+.log a{
+    color: white;
+    font-size: 20px;
+    transition: all .8s;
+}
+.log a:hover{
+    color: #1877F2;
+    transform: scale(1.4);
+}
+
+.main{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.welcome{
+    width: 500px;
+}
+
+.main h2{
+    font-family: 'Playpen Sans', cursive;
+font-family: 'Poppins', sans-serif;
+color: rgb(255, 255, 255);
+}
+.welcome-p{
+    font-size: 1.2rem;
+    color: #dafd59;
+}
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    gap: 40px;
+   
+  }
+  
+  .mySlides {
+    width: 700px;
+    height: 600px;
+    /* border-radius: 50%; */
+    opacity: 6;
+    /* border-radius: 4px; */
+    border: 1px solid rgb(252, 252, 255);
+    box-shadow: 0 5px 15px white,
+    0 -5px 15px white;
+  }
+  .nurse-help h3{
+    color: white;
+  }
+  

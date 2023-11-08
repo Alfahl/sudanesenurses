@@ -1,0 +1,345 @@
+body{
+    background-image: url(/img/pexels-cottonbro-studio-5722164.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.loginpag{
+   
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.main-headre-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%; padding-right: 20px;
+}
+nav>ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+li a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: .7s ease all;
+    text-decoration: none;
+    font-size: 18px;
+}
+li a:hover{
+    transform: scale(1.1);
+    color: rgb(255, 241, 241);
+    padding: 10px;
+    background-color: rgb(145, 52, 52);
+    border-radius: 10px;
+    box-sizing: 0 5px 15px rgb(22, 41, 148);
+}
+
+
+.logo{
+    font-family: 'Alumni Sans Inline One', sans-serif;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+   
+
+.search-and-social{
+    width: fit-content;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.fa-twitter{
+    font-size: 30px !important;
+    color: #1877F2 !important;
+    transition: all .8s;
+}
+.fa-twitter:hover{
+    cursor: pointer;
+    transform: scale(1.4);
+
+}
+.fa-facebook{
+    color: #ffffff;
+    font-size: 28px;
+    transition: all .8s;
+}
+.fa-facebook:hover{
+    transform: scale(1.4);
+    cursor: pointer;
+    color: #ffffff;
+}
+.fa-instagram{
+    font-size: 28px;
+    color: #E4405F;
+    transition: all .8s;
+
+}
+.fa-instagram:hover{
+    transform: scale(1.4);
+    cursor: pointer;
+    color: #D62C2A;
+}
+
+.search-and-social input{
+    width: 160px;
+    border-radius: 12px;
+    border: none;
+    padding: 6px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    
+}
+.side-container{
+    margin-top: 100px;
+    
+    max-height: 600px;
+    border-radius: 20px;
+}
+.side-container ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+.side-container ul li{
+    list-style: none;
+    text-align: left;
+    line-height: 30px;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+}
+.main-container{
+    background: linear-gradient(136deg, rgba(255, 255, 255, 0.473), rgba(255, 255, 255, 0));
+    width: 400px;
+    max-height: 600px;
+   
+    top: 100px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    /* box-shadow:  10px 20px 30px #bebebe,
+             -20px -20px 30px #ffffff8e; */
+     border-radius: 24px;
+    border: 2px solid #fff;
+     transition: .9s;
+   margin: 100px 100px;
+   
+    
+  
+}
+.main-container:hover{
+    transform: scale(1.03);
+    box-shadow: 5px 10px 15px rgb(252, 252, 252),
+                -5px -10px 15px rgb(255, 255, 255);
+                background: linear-gradient(136deg, rgba(31, 29, 29, 0.459), rgba(29, 28, 28, 0));
+}
+
+  
+h1{
+    font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+color: #fff;
+font-size: 2rem;
+font-weight: bold;
+}
+.user-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgba(12, 124, 199, 0.89);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 5px 15px white,
+                0 -5px 15px white;
+    border: 1px solid rgba(0, 255, 255, 0.466);
+    align-items: center;
+    margin-top: 30px;
+   
+
+}
+.user-img i{
+    font-size: 2rem;
+    color: white;
+    
+
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+.email input{
+    border: none;
+    width: 74%;
+    outline: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    
+}
+
+.email input::placeholder{
+    color:rgba(255, 255, 255, .8);
+    text-indent: 20px;
+    font-size: 14px;
+}
+.email{
+    position: relative;
+}
+.fa-user{
+    position: absolute;
+    color: white;
+}
+
+.password{
+    position: relative;
+}
+
+.password input{
+    border: none;
+    width: 74%;
+    outline: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+}
+
+.fa-lock{
+    position: absolute;
+    color: white;
+}
+
+.password input::placeholder{
+    color:rgba(255, 255, 255, .8);
+    text-indent: 20px;
+    font-size: 14px;
+}
+.forgot{
+    
+    width: fit-content;
+    margin-left: 50px;
+}
+.forgot a{
+    text-decoration: none;
+    color: white;
+}
+
+.remember{
+    margin-top: 30px;
+    width:fit-content;
+    align-self: flex-end;
+    position: relative;
+    margin-right: 60px;
+    color: aliceblue;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button{
+    width: fit-content;
+    padding: 10px;
+    align-self: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 255, 255, 0.466);
+    background-color: rgba(12, 124, 199, 0.89);
+    color: white;
+}
+.or{
+    font-size: 18px;
+}
+.or::before,
+.or::after {
+  content: "";
+  display: inline-block;
+  width: 80px; /* Adjust the line width as needed */
+  border-top: 2px solid #fafafa; /* Line color and style */
+  margin: 0 10px; /* Adjust the margin as needed to control the space around the line */
+}
+
+.altra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.facebok{
+    display: flex;
+    background-color:#1877F2;
+    padding: 6px;
+    border-radius: 10px;
+    width: 200px;
+    gap: 10px;
+    border: 0.5px solid white;
+}
+.fa-facebook-f{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.google{
+    display: flex;
+    background-color:#ffffff;
+    padding: 6px;
+    border-radius: 10px;
+    width: 200px;
+    gap: 10px;
+    border: 1px solid #1877F2;
+
+}
+.fa-google{
+    font-size: 20px;
+    color: #4285F4;
+    font-weight: bold;
+    
+}
+
+.twitter{
+    display: flex;
+    background-color:#1DA1F2;
+    padding: 6px;
+    border-radius: 10px;
+    width: 200px;
+    gap: 10px;
+    border: 1px solid white;
+}
+
+.fa-twitter{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
